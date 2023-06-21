@@ -21,7 +21,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://www.bluturtle.org
+url: https://bluturtle.org
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
