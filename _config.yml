@@ -9,7 +9,7 @@ description: BluTurtle is a volunteer threat research group that was formed in 2
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/bluturtle.png
+picture: assets/images/bluturtle.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
