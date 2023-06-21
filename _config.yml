@@ -1,26 +1,27 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: BluTurtle  
+bio: Coming Soon!
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: BluTurtle is a volunteer threat research group that was formed in 2023 by a group of security professionals who were passionate about making the internet a safer place. The group is made up of experts from a variety of backgrounds, including threat intelligence, incident response, offensive security, and risk management. BluTurtle's mission is to research and share information about emerging threats, as well as to provide training and resources to help others improve their security posture. BluTurtle will also provide students and aspiring security professionals with the opportunity to contribute to research projects, blog posts, and more! 
+
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/bluturtle.png
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://bluturtle.org
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -29,36 +30,36 @@ permalink: /:title/
 # analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+#  shortname: github # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+#linkedin: mylinkedin
+github: Blu-Turtle
+#email: myemail@gmail.com
 
-authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+#authors:
+  #johndoe:
+  #  name: John Doe
+  #  bio: A Man who travels the world eating noodles
+  #  external-image: false
+  #  picture: assets/images/profile.jpg
+  #  twitter: johndoe
+  #jamesfoster:
+  #  name: James Foster
+  #  bio: A Man who develops software with coffee
+  #  external-image: false
+  #  picture: assets/images/james.jpg
+  #  twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
@@ -69,11 +70,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+about: false
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -94,14 +95,14 @@ show-author: true
 animation: true
 
 # add default values to specific pages or layouts
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
+#defaults:
+#  - scope:
+#      path: "" # an empty string here means all files in the project
+#      layout: "post"
+#    values:
       # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
-      hidden: false
+#      hidden: false
 
 plugins:
   - jekyll-seo-tag
